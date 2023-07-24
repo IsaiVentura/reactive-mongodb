@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      database: reactivemongo
+      host: localhost
+      port: 2717
+server:
+  port: 8054
+logging:
+  level:
+    root: DEBUG
+    org.springframework.web: DEBUG
+    com.howtodoinjava: DEBUG
+    org.hibernate: DEBUG
